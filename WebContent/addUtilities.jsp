@@ -345,13 +345,13 @@
 
         <!--start of form-->
         <div class="container">
-          <form action="#" class="addDetails">
+          <form		method="POST"						action="utilityServlet.java"	class="addDetails" 								>
             <h5>Add Bill Detalis Here</h5>
-            from <input type="date" name="" id="" style="margin-right: 30px"> 
-            to <input type="date" name="" id=""> <br>
-            Billed Date <input type="date" name="" id=""> <br>
-            Amount LKR.<input type="number" name id style="margin-left: 1px"> <br>
-            Expected Date to Pay <input type="date" name="" id=""> <br>
+            from <input type="date" name="fromD" id="" style="margin-right: 30px"> 
+            to <input type="date" name="toD" id=""> <br>
+            Billed Date <input type="date" name="billedD" id=""> <br>
+            Amount LKR.<input type="number" name="amount" id="" style="margin-left: 1px"> <br>
+            Payed Date <input type="date" name="payed D" id=""> <br>
           </form>
 
           <div class="row">
@@ -367,6 +367,8 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
+          
+          
             <span>Copyright &copy; Your Website 2019</span>
           </div>
         </div>

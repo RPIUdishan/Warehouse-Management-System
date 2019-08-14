@@ -1,4 +1,4 @@
-package com.modal;
+package com.model;
 
 import java.util.Date;
 
