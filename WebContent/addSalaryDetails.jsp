@@ -24,7 +24,7 @@
  
 
 </head>
-
+<!-- Start of page -->
 <body id="page-top">
 
   <!-- Page Wrapper -->
