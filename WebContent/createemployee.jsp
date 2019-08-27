@@ -262,36 +262,36 @@
                       <div class="text-center">
                         <h1 class="h4 text-gray-900 mb-4">Create Employee</h1>
                       </div>
-                      <form class="user">
+                      <form method="post" class="user">
                         <div class="form-group row">
                           <div class="col-sm-6 mb-3 mb-sm-0">
-                            <input type="text" class="form-control form-control-user" id="username" placeholder="Username">
+                            <input type="text" class="form-control form-control-user" name="uname" id="username" placeholder="Username">
                           </div>
                           <div class="col-sm-6">
-                            <input type="text" class="form-control form-control-user" id="fullname" placeholder="Full Name">
+                            <input type="text" class="form-control form-control-user" name="name" id="fullname" placeholder="Full Name">
                           </div>
                         </div>
 
                         <div class="form-group row">
                             <div class="col-sm-6 mb-3 mb-sm-0">
-                              <input type="text" class="form-control form-control-user" id="nic" placeholder="NIC">
+                              <input type="text" class="form-control form-control-user" name="nic" id="nic" placeholder="NIC">
                             </div>
                             <div class="col-sm-6">
-                              <input type="text" class="form-control form-control-user" id="phone" placeholder="Phone Number">
+                              <input type="text" class="form-control form-control-user" name="phn" id="phone" placeholder="Phone Number">
                           </div>
                         </div>
                         <div class="form-group">
-                          <input type="email" class="form-control form-control-user" id="email" placeholder="Email Address">
+                          <input type="email" class="form-control form-control-user" name="email" id="email" placeholder="Email Address">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control form-control-user" id="address" placeholder="Address">
+                            <input type="text" class="form-control form-control-user" name="address" id="address" placeholder="Address">
                           </div>
                         <div class="form-group row">
                           <div class="col-sm-6 mb-3 mb-sm-0">
-                            <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                            <input type="password" class="form-control form-control-user" name="pwd" id="exampleInputPassword" placeholder="Password">
                           </div>
                           <div class="col-sm-6" >
-                                <select style ="border-radius : 50;"  class="form-control" id="sel1">
+                                <select style ="border-radius : 50;"  class="form-control" name="job" id="sel1">
                                   <option>Job Role</option>
                                   <option>CEO</option>
                                   <option>Manager</option>

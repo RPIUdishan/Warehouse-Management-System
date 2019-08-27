@@ -324,6 +324,25 @@
                         </span>
                       </a></td>
                     </tr>
+                    <c:forEach items="$(AllPost)" var="p">
+                    <tr>
+                    	<td>${p.uname}</td>
+                    	<td>${p.name}</td>
+                    	<td>${p.nic}</td>
+                    	<td>${p.address}</td>
+                    	<td>${p.phn}</td>
+                    	<td>${p.job}</td>
+                    	<td><a href="updatepage.jsp?id=${p.id}" class="btn btn-warning btn-icon-split">
+                        <span class="icon text-white-50">
+                          <i class="fas fa-exclamation-triangle"></i>
+                        </span>
+                      </a>  <a href="delete?id=${p.id}" class="btn btn-danger btn-icon-split">
+                        <span class="icon text-white-50">
+                          <i class="fas fa-trash"></i>
+                        </span>
+                      </a></td>
+                    </tr>
+                    </c:forEach>
                   </tbody>
                 </table>
               </div>
