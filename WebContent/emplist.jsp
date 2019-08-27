@@ -32,92 +32,92 @@
  <!-- Page Wrapper -->
  <div id="wrapper">
 
-  <!-- Sidebar -->
-  <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-    <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-    
-      <div class="sidebar-brand-text mx-3">DWW Logistics</div>
-    </a>
-
-    <!-- Divider -->
-    <hr class="sidebar-divider my-0">
-
-    <!-- Nav Item - Dashboard -->
-    <li class="nav-item">
-      <a class="nav-link" href="index.html">
-        <i class="fas fa-fw fa-tachometer-alt"></i>
-        <span>Dashboard</span></a>
-    </li>
-
-    <!-- Divider -->
-    <hr class="sidebar-divider">
-
-    <!-- Heading -->
-    <!--div class="sidebar-heading">
-      Interface
-    </!--div>
-
-    <!-Nav Item - Pages Collapse Menu -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-        <i class="fas fa-fw fa-cog"></i>
-        <span>Employee</span>
+     <!-- Sidebar -->
+     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+   
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.jsp">
+      
+        <div class="sidebar-brand-text mx-3">DWW Logistics</div>
       </a>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
-          <h6 class="collapse-header">Employee Details:</h6>
-          <a class="collapse-item" href="emplist.html">Employee List</a>
-          <a class="collapse-item" href="createemployee.html">Create Employee</a>
-        </div>
-      </div>
-    </li>
-
-    <hr class="sidebar-divider">
-    <!-- Nav Item - Utilities Collapse Menu -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-        <i class="fas fa-fw fa-wrench"></i>
-        <span>Store Management</span>
-      </a>
-      <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
-          <h6 class="collapse-header">Store:</h6>
-          <a class="collapse-item" href="#">Store 01</a>
-          <a class="collapse-item" href="#">Store 01</a>
-          <a class="collapse-item" href="#">Store 01</a>
-          <a class="collapse-item" href="#">Other</a>
-        </div>
-      </div>
-    </li>
-    <hr class="sidebar-divider">
-
-    <!-- Transport -->
+  
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+  
+      <!-- Nav Item - Dashboard -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Transport Management</span>
+        <a class="nav-link" href="index.jsp">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>
+  
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+  
+      <!-- Heading -->
+      <!--div class="sidebar-heading">
+        Interface
+      </!--div>
+  
+      <!-Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Employee</span>
         </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Transport:</h6>
-            <a class="collapse-item" href="login.html">Vehical Management</a>
-            <a class="collapse-item" href="register.html">Driver Management</a>
-            <a class="collapse-item" href="forgot-password.html">Task Management</a>
+            <h6 class="collapse-header">Employee Details:</h6>
+            <a class="collapse-item" href="emplist.jsp">Employee List</a>
+            <a class="collapse-item" href="createemployee.jsp">Create Employee</a>
           </div>
         </div>
       </li>
-    
-    <!-- Divider -->
-    <hr class="sidebar-divider d-none d-md-block">
-
-    <!-- Sidebar Toggler (Sidebar) -->
-    <div class="text-center d-none d-md-inline">
-      <button class="rounded-circle border-0" id="sidebarToggle"></button>
-    </div>
-
-  </ul>
+  
+      <hr class="sidebar-divider">
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-wrench"></i>
+          <span>Store Management</span>
+        </a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Store:</h6>
+            <a class="collapse-item" href="#">Store 01</a>
+            <a class="collapse-item" href="#">Store 01</a>
+            <a class="collapse-item" href="#">Store 01</a>
+            <a class="collapse-item" href="#">Other</a>
+          </div>
+        </div>
+      </li>
+      <hr class="sidebar-divider">
+  
+      <!-- Transport -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Transport Management</span>
+          </a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Transport:</h6>
+              <a class="collapse-item" href="login.jsp">Vehical Management</a>
+              <a class="collapse-item" href="register.jsp">Driver Management</a>
+              <a class="collapse-item" href="forgot-password.jsp">Task Management</a>
+            </div>
+          </div>
+        </li>
+      
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+  
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+  
+    </ul>
   <!-- End of Sidebar -->
 
   <!-- Content Wrapper -->
@@ -230,7 +230,7 @@
             </a>
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-              <a class="dropdown-item" href="profile.html">
+              <a class="dropdown-item" href="profile.jsp">
                 <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                 Profile
               </a>
@@ -239,7 +239,7 @@
                 Activity Log
               </a-->
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+              <a class="dropdown-item" href="login.jsp" data-toggle="modal" data-target="#logoutModal">
                 <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                 Logout
               </a>
@@ -296,218 +296,53 @@
                       <td>Colombo, SriLanka</td>
                       <td>076-1234567</td>
                       <td>CEO</td>
-                      <td><a href="updatepage.html" class="btn btn-warning btn-icon-split">
+                      <td><a href="updatepage.jsp" class="btn btn-warning btn-icon-split">
                         <span class="icon text-white-50">
                           <i class="fas fa-exclamation-triangle"></i>
                         </span>
-                        <span class="text">Update</span>
                       </a>  <a onclick="deleting()" class="btn btn-danger btn-icon-split">
                         <span class="icon text-white-50">
                           <i class="fas fa-trash"></i>
                         </span>
-                        <span class="text">Delete</span>
                       </a></td>
                     </tr>
                     <tr>
                       <td>TaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
+                      <td>Taveesha Gimhana</td>
                       <td>98XXXXXXV</td>
                       <td>uakaveeshagimhana@hotmail.com</td>
                       <td>Colombo, SriLanka</td>
                       <td>076-1234567</td>
                       <td>CEO</td>
-                      <td><a href="updatepage.html" class="btn btn-warning btn-icon-split">
+                      <td><a href="updatepage.jsp" class="btn btn-warning btn-icon-split">
                         <span class="icon text-white-50">
                           <i class="fas fa-exclamation-triangle"></i>
                         </span>
-                        <span class="text">Update</span>
-                      </a>  <a onclick="deleting()" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Delete</span>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="updatepage.html" class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span class="text">Update</span>
-                      </a>  <a onclick="deleting()" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Delete</span>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="updatepage.html" class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span class="text">Update</span>
-                      </a>  <a onclick="deleting()" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Delete</span>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="updatepage.html" class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span class="text">Update</span>
                       </a>  <a href="#" class="btn btn-danger btn-icon-split">
                         <span class="icon text-white-50">
                           <i class="fas fa-trash"></i>
                         </span>
-                        <span class="text">Delete</span>
                       </a></td>
                     </tr>
+                    <c:forEach items="$(AllPost)" var="p">
                     <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="#" class="btn btn-warning btn-icon-split">
+                    	<td>${p.uname}</td>
+                    	<td>${p.name}</td>
+                    	<td>${p.nic}</td>
+                    	<td>${p.address}</td>
+                    	<td>${p.phn}</td>
+                    	<td>${p.job}</td>
+                    	<td><a href="updatepage.jsp?id=${p.id}" class="btn btn-warning btn-icon-split">
                         <span class="icon text-white-50">
                           <i class="fas fa-exclamation-triangle"></i>
                         </span>
-                        <span class="text">Update</span>
-                      </a>  <a href="#" class="btn btn-danger btn-icon-split">
+                      </a>  <a href="delete?id=${p.id}" class="btn btn-danger btn-icon-split">
                         <span class="icon text-white-50">
                           <i class="fas fa-trash"></i>
                         </span>
-                        <span class="text">Delete</span>
                       </a></td>
                     </tr>
-                    <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="#" class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span class="text">Update</span>
-                      </a>  <a href="#" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Delete</span>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="#" class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span class="text">Update</span>
-                      </a>  <a href="#" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Delete</span>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="#" class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span class="text">Update</span>
-                      </a>  <a href="#" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Delete</span>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="#" class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span class="text">Update</span>
-                      </a>  <a href="#" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Delete</span>
-                      </a></td>
-                    </tr>
-                    <tr>
-                      <td>KaveeshaG</td>
-                      <td>Kaveesha Gimhana</td>
-                      <td>98XXXXXXV</td>
-                      <td>uakaveeshagimhana@hotmail.com</td>
-                      <td>Colombo, SriLanka</td>
-                      <td>076-1234567</td>
-                      <td>CEO</td>
-                      <td><a href="#" class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-exclamation-triangle"></i>
-                        </span>
-                        <span class="text">Update</span>
-                      </a>  <a href="#" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Delete</span>
-                      </a></td>
-                    </tr>
+                    </c:forEach>
                   </tbody>
                 </table>
               </div>
